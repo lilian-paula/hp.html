@@ -1,0 +1,91 @@
+body {
+    color: white;
+    background-image: url(https://i.pinimg.com/736x/53/f4/20/53f42069939470997051d8002f5d1fd2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#plataform {
+    height: 200px;
+
+}
+
+h2 {
+    color: rgb(180, 156, 15);
+    background-color: white;
+}
+
+fieldset {
+    background-color: rgb(78, 12, 12);
+    text-align: center;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-size: 20px;
+    width: 470px; 
+    margin-left: 400px;
+    border-radius:  10px;
+    margin-top: 30px;
+}
+
+button {
+    background-color: black;
+    color: antiquewhite;
+    font-weight: bold;
+    height: 30px;
+    width: 100px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    text-align: center; 
+    float: right;
+}
+
+/*Definindo a animação de pulsação*/
+@keyframes pulsar {
+    0% {
+        transform: scale(1); /*Tamanho original*/
+    }
+    50% {
+        transform: scale(1.1); /*Aumenta o tamanho*/
+    }
+    100% {
+        transform: scale(1); /*Retorna ao tamanho original*/
+    }
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+    padding: 20px 110px 20px 110px;
+}
+
+#aumentar{
+    background-color: black;
+    color: antiquewhite;
+    text-align: right;
+    font-weight: bold;
+    height: 30px;
+    width: 100px;
+    border-radius: 70px;
+    border: 40px;
+    cursor: pointer;
+    text-align: center; 
+    padding: 20px 20px 40px 20px;
+}
+
+#diminuir{
+    background-color: black;
+    color: antiquewhite;
+    text-align: right;
+    font-weight: bold;
+    height: 30px;
+    width: 100px;
+    border-radius: 70px;
+    border: 40px;
+    cursor: pointer;
+    text-align: center; 
+    padding: 20px 20px 40px 20px;
+}
